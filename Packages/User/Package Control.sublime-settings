@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AutoFileName",
+		"ColorPicker",
+		"CTags",
+		"DocBlockr",
+		"Emmet",
+		"MarkdownEditing",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeEnhancedUtilitiesSet",
+		"Terminal"
+	]
+}

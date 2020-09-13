@@ -1,0 +1,9 @@
+{
+	"shell_cmd": "make",
+	"cmd": ["gcc", "${file}", "-fexec-charset=gbk","-o", "${file_path}/${file_base_name}", "&", "start", "cmd", "/c", "${file_base_name} & echo. & pause"],
+ 	"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+	"working_dir": "${file_path}",
+ 	"selector": "source.c, source.c++, source.h",
+ 	"shell": true,
+ 	"encoding":"cp936",
+}
